@@ -2,15 +2,20 @@
   "name": "react-helper",
   "version": "0.0.1",
   "main": "./index.js",
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify",
+    "events": "events-browserify"
+  },
   "dependencies": {
     "assert": "git://github.com/mvayngrib/react-assert",
     "buffer": "^3.2.1",
-    "events": "^1.0.2",
+    "events-browserify": "0.0.1",
     "fs": "0.0.2",
     "inherits": "^2.0.1",
     "path": "^0.11.14",
     "process": "^0.11.0",
-    "stream": "0.0.2",
+    "stream-browserify": "^1.0.0",
     "util": "^0.10.3"
   }
 }

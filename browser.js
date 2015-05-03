@@ -1,0 +1,10 @@
+
+require('assert')
+require('buffer')
+require('events')
+require('fs')
+require('inherits')
+require('path')
+require('process')
+require('stream')
+require('util')
